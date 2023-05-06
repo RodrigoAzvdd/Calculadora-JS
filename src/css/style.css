@@ -4,6 +4,13 @@
   padding: 0;
 }
 
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 :root {
   --bg-color: #212529;
   --border-color: #666;
